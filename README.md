@@ -22,12 +22,26 @@ I am focusing the below 'how-to' on [Vast.AI](https://vast.ai) as the provisioni
 
 This section is under live construction: if you're confused, come back in a bit - if you're still confused, ping me on Twitter and let me know what part you're struggling with!
 
-- 0. You're going to want to sign up to [Vast.AI](https://vast.ai), log in, and add a payment method. I'm not going to hand-hold you through how to do that, it's a site a sophisticated UX and it uses Stripe and Crypto.com as its payment rails. I've been following Joe's advice and adding credit in US$10 increments - that will be more than enough for you to start.
+#### Step 0
+
+You're going to want to sign up to [Vast.AI](https://vast.ai), log in, and add a payment method.
+
+I'm not going to hand-hold you through how to do that, it's a site a sophisticated UX and it uses Stripe and Crypto.com as its payment rails. I've been following Joe's advice and adding credit in US$10 increments - that will be more than enough for you to start.
 
 ![img.png](ion-cannon-images/Step0.PNG)
 
-- 1. 
+#### Step 1
+
+Once you're logged in and have some credit available, go to the **Create** section of the Console.
+
+Here, you'll want to make sure that the image (pre-installed software on a new instance you create) has Pytorch available on it. 
+
+Click on `Edit Image & Config...`, highlighted below. Note that I've edited the required disk space to be 150 GB - this is _far_ in excess of what you'll need, but space costs mere pennies. Stick with about 50 GB if you're not a spendthrift, that'll do fine.
+ 
 - ![img.png](ion-cannon-images/Step1.PNG)
+
+#### Step 2
+
 - ![img.png](ion-cannon-images/Step2.PNG)
 - ![img.png](ion-cannon-images/Step3.PNG)
 - ![img.png](ion-cannon-images/Step4.PNG)
