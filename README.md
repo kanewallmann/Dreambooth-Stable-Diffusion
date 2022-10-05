@@ -1,6 +1,5 @@
 # Dreambooth Ion Cannon
 
-
 ![img.png](ion-cannon-images/ioncannon.png)
 
 ## Purpose
@@ -9,7 +8,7 @@ The Dreambooth Ion Cannon is a repository that abstracts away a large chunk of t
 
 This repo (and _particularly_ this `README`) should be considered under active development until such time as this line of text disappears, so please pop in every so often in case things still appear piecemeal. I will be adding new prompts on occasion to the model (and have several ideas on how to smooth the path to training multi-subject models), so be aware that this is very much a construction zone.
 
-After finishing the guide (again, active work if you're reading this line), I'll add some points on how to search for prompts and run them yourself using this repository - if you find any that you are particularly impressed with, [tag me on Twitter](https://twitter.com/functi0nZer0) with a screenshot as well as the prompt text and the seed, and I'll consider them for inclusion!
+After finishing the guide (again, active work if you're reading this line), I'll add some points on how to search for prompts and run them yourself using this repository - if you already know how to hunt them down, or have any that you've been using yourself and are particularly impressed with, [tag me on Twitter](https://twitter.com/functi0nZer0) with a screenshot as well as the prompt text and the seed, and I'll consider them for inclusion!
 
 ## Disclaimer
 
@@ -244,3 +243,19 @@ You'll want to click on these.
 "We knew the world would not be the same. A few people laughed, a few people cried. Most people were silent."
 
 ![img.png](ion-cannon-images/Step20.PNG)
+
+---
+
+# Notes
+
+This repo is pretty much brand-new, and the process is untested so far beyond my own tinkering with it.
+
+I welcome folk - especially those who wouldn't call themselves 'technical' - to have a go and report back with any difficulties. I can't make this easier for people unless I know what people are stumbling on.
+
+# Alpha
+
+There are a couple of things I'll be adding in here over time - how you can help me add new filters, some things I'm going to extend this with, and so on -, but first I want to see how well this gets used. Please, if you're not anonymous and comfortable with people seeing the results (whether they be great or absolutely atrocious), let me know on Twitter!
+
+# Thanks
+
+My sincere thanks to [@Bonecondor](https://twitter.com/Bonecondor) for helping me find the prompts that inspired creating this, and [@KaneWallmann](https://twitter.com/KaneWallmann) for letting me know about this in the first place and absolutely destroying at least a week of my productivity.
