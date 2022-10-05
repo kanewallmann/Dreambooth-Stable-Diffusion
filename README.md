@@ -71,7 +71,7 @@ Head now to the `Instances` section of the Console (again, it's on your left).
 
 Given that you've just rented this, it'll need a minute to wake up, load Pytorch and become available for you to `Open`. It shouldn't take too long.
 
-Note: if, when you hit `Open`, it gives you a _Bad Gateway Error_, just wait another 30 seconds or so and try again - that just means your instance jumped the gun a bit. 
+Note: if, when you hit `Open`, it gives you a _502 Bad Gateway_, just wait another 30 seconds or so and try again - that just means your instance jumped the gun a bit. 
 
 ![img.png](ion-cannon-images/Step4.PNG)
 
@@ -200,7 +200,7 @@ I've written a bit of text here that talks about - inter alia - who did the bulk
 
 These are the *only* things you'll need to edit.
 
-**Based on what you used for your training set**, edit these values appropriately, and then select `Cell` > `Run All Below`.
+**Based on what you used for your training set**, edit these values, and then select `Cell` > `Run All Below`.
 
 You can now... go away for a while. The Jupyter notebook is going to do a few things:
 
@@ -215,11 +215,32 @@ You can now... go away for a while. The Jupyter notebook is going to do a few th
 
 ### Step 18
 
+Whether you've come back after a few cups of coffee or sat watching nervously, the results are placed into the `/outputs` directory in various subdirectories.
+
+These subdirectories will be named as `{target_name}_{keyword}`, where `keyword` is simply some identifier for the prompt, rather than the prompt itself, which often take a form something akin to -
+
+` --prompt "Up close portrait of a beautiful {target_token} in black and white, photorealistic, upper body, art by diego fazio and diegokoi and artgerm, concept art, hyper sharp focus, 8k highly detailed"`
+
+\- which is very cool and very legible.
+
+Click one to enter whenever it gets generated - you aren't going to break anything by entering it as soon as it gets created.
+
 ![img.png](ion-cannon-images/Step18.PNG)
+
+### Step 19
+
+If you sit in one of these directories and watch while the prompt is being processed, you'll notice that periodically new images are added to the `/samples` directory.
+
+When the prompt is completed, higher resolution images are all added to the `{target_name}_{keyword}` parent directory at once.
+
+For the sake of easily viewing them all, a collage image is also generated, which takes the form `{target_name}_{keyword}-0000.jpg`.
+
+You'll want to click on these.
+
 ![img.png](ion-cannon-images/Step19.PNG)
 
 #### Step 20
 
-Stare into the void.
+"We knew the world would not be the same. A few people laughed, a few people cried. Most people were silent."
 
 ![img.png](ion-cannon-images/Step20.PNG)
