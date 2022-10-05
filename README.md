@@ -14,17 +14,17 @@ After finishing the guide (again, active work if you're reading this line), I'll
 
 I must reiterate here - the _vast_ majority of this code is not my work.
 
-This repository is a fork of a fork of a fork, with the original by Xavier Xiao found [here](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion), the work of Joe Penna et al found [here](https://github.com/JoePenna/Dreambooth-Stable-Diffusion), and the work of Kane Wallmann found [here](https://github.com/KaneWallmann/Dreambooth-Stable-Diffusion).
+This repository is a fork of a fork of a fork, with the original by [Xavier Xiao](https://github.com/XavierXiao) found [here](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion), the work of [Joe Penna](https://github.com/JoePenna) et al found [here](https://github.com/JoePenna/Dreambooth-Stable-Diffusion), and the work of [Kane Wallmann](https://github.com/KaneWallmann) found [here](https://github.com/KaneWallmann/Dreambooth-Stable-Diffusion).
 
-In the interests of simplicity, I have removed all text in this README that is not directly related to how to use this repository. If you have issues with image quality etc, please read through Kane's repository (as it contains notes from all parties involved). There is a lot of wonderfully insightful stuff in there.
+In the interests of simplicity, I have removed all text in this README that is not directly related to how to use this repository. If you have issues with image quality etc, please read through Kane's repository (as it contains notes from all other parties involved). There is a lot of wonderfully insightful stuff in there.
 
 I am focusing the below 'how-to' on [Vast.AI](https://vast.ai) as the provisioning platform for GPU compute, simply because when I was trying this out, that was the platform that had resources available. Joe has asked folk to utilise RunPod [with his referral link](https://runpod.io/?ref=n8yfwyum), which allows him to continue his work without paying for it - if you're more technically inclined and feel confident that you can run a Jupyter notebook with Pytorch in a platform-agnostic manner, I strongly recommend you do so in order to show support.
 
 ## Controlling The Ion Cannon
 
-This section is under live construction: if you're confused, come back in a bit - if you're still confused, ping me on Twitter and let me know what part you're struggling with!
+This section is currently being sanity-tested by early-comers. If you're confused, come back in a bit - if you're still confused after that, ping me on Twitter and let me know what part you're struggling with!
 
-Some of this will seem almost patronising in tone: I'm writing this live, and trying to account for all questions I might get in advance, so apologies in advance if necessary!
+Some of this will seem almost patronising in tone: I wrote this first pass in a rush after getting hit with a block-wide powercut, and I'm trying to account for all questions I might get in advance, so apologies in advance if necessary!
 
 ### Step 0
 
