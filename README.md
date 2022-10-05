@@ -50,8 +50,21 @@ Previous iterations of this repository have suggested checking the Jupyter lab i
 
 ### Step 3
 
+Now you need to rent out some hardware to actually run things on.
+
+I tend to select `Only datacenters` as a filter because the instances that are available there are _very_ fast to spin up - in the range of seconds - and have solid bandwidth: the price per hour reflects this, even though it only amounts to a couple of cents per hour. You're free to not do this, of course, but note that if you don't you might find your instance taking a very long time to get started.
+
+One **critical** choice you need to make is that whatever you rent _must_ have 24 GB VRAM (highlighted below). Beyond that, you're free to select whichever one is cheapest: this will work on even a single card (i.e. you might as well aim for whichever one is cheapest, I've not looked too hard into adding any fancy parallelisation stuff yet).
+
+When you've found the one you want, hit `Rent`. You'll get a little popup informing you as much.
+
 ![img.png](ion-cannon-images/Step3.PNG)
+
+### Step 4
+
 ![img.png](ion-cannon-images/Step4.PNG)
+
+
 ![img.png](ion-cannon-images/Step5.PNG)
 ![img.png](ion-cannon-images/Step6.PNG)
 ![img.png](ion-cannon-images/Step7.PNG)
