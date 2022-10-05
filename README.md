@@ -150,15 +150,15 @@ Enter the `{class}` directory that you've just created, and hit `Upload`.
 
 Here's the step that requires a couple of caveats.
 
-In this folder, you'll want to upload between 8-10 **.png** files capturing someone's likeness.
+In this folder, you'll want to upload between 8-10 `.png` files capturing someone's likeness.
 
 There's conflicting advice about whether these should be a mix of full-body, selfies and medium-length shots, but I've personally found that just selfies work fine, provided that they've got different background lighting, clothes, facial expressions and so on.
 
 Most of the prompts generated focus on portraits in any event, so the shape of the body is something of an irrelevance. 
 
-As an example, I've put some photos of [@inversebrah](https://twitter.com/inversebrah) - partially to demonstrate that `person` can be used very liberally, and also that cartoon representations work fine provided that you have enough variation in your training set!
+As an example, I've chosen [@inversebrah](https://twitter.com/inversebrah) - partially to demonstrate that `person` can be used very liberally, and also that cartoon representations work fine provided that you have enough variation in your training set!
 
-It is _very_ important that these images follow the format `{identifier} {class}_001.png`, `{identifier} {class}_002.png`, `{identifier} {class}_003.png` and so on: if you get this wrong your model is likely to train incorrectly (or fail to execute outright).
+It is _very_ important that these images follow the format `{identifier} {class}_001.png`, `{identifier} {class}_002.png`, `{identifier} {class}_003.png` and so on: if you get this wrong your model is likely to train incorrectly (or fail to execute outright). If this happens, I'm claiming zero responsibility for wasted compute time.
 
 See `inversebrah person_001.png` et al. I actually don't know yet if uploading `.PNG` files (upper-case) cases the model training to fail - I'll get around to checking that soon, but it takes you no time to rename them if so. If you have .jpg files, you can use a site such as [this](https://jpg2png.com/) to convert them.
 
@@ -193,7 +193,28 @@ Now you're going to access the code that actually trains Stable Diffusion with y
 Click on `dreambooth_ion_cannon.ipynb`: a new tab will open.
 
 ![img.png](ion-cannon-images/Step16.PNG)
+
+### Step 17
+
+I've written a bit of text here that talks about - inter alia - who did the bulk of the work on this, how the image selection works again (just to drill it home), and some legal provisos. Underneath this text, there's a cell with two variables in it: `target_name` and `target_class`.
+
+These are the *only* things you'll need to edit.
+
+**Based on what you used for your training set**, edit these values appropriately, and then select `Cell` > `Run All Below`.
+
+You can now... go away for a while. The Jupyter notebook is going to do a few things:
+
+* Install all of the package dependencies needed,
+* Rebuild a full copy of the Stable Diffusion v1.4 base model from the multi-volume archive included in the repo,
+* Train the base model with the likeness of your target using the token identifier specified in the images,
+* Prune the resulting model checkpoint from ~12 GB to ~2 GB,
+* Move the pruned model into the `/trained_models` subdirectory, and
+* Start generating 64 images for each of several distinct prompts
+
 ![img.png](ion-cannon-images/Step17.PNG)
+
+### Step 18
+
 ![img.png](ion-cannon-images/Step18.PNG)
 ![img.png](ion-cannon-images/Step19.PNG)
 
