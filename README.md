@@ -129,8 +129,18 @@ Select the checkbox option next to the newly created `Untitled Folder`, and hit 
 
 ### Step 11
 
+Depending on the class of the person you're trying to train, name the folder `man`, `woman` or `person`.
+
+You're welcome to use another category if you want (so long as you're consistent in the notebook itself, as detailed in Step 17 below), but no regularisation will take place.
+
+I'm wary about adding too many additional categories, but will probably add `dog` and `cat` soon enough for your pets.
+
 ![img.png](ion-cannon-images/Step11.PNG)
+
+### Step 12
+
 ![img.png](ion-cannon-images/Step12.PNG)
+
 ![img.png](ion-cannon-images/Step13.PNG)
 ![img.png](ion-cannon-images/Step14.PNG)
 ![img.png](ion-cannon-images/Step15.PNG)
