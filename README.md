@@ -84,6 +84,14 @@ A new tab is going to open. Don't close (or misplace) the tab you were just in -
 
 ### Step 6 
 
+Behold - a Jupyter notebook!
+
+Copy and paste the following line into the only available cell - `!git clone https://github.com/laurenceday/Dreambooth-Ion-Cannon.git` - and then hit `Ctrl`+`Enter`.
+
+It's going to download 4.8 GB worth of files. If you've used a datacenter, this shouldn't take more than a couple of minutes.
+
+Once you see the line `Checking out files: 100% (n/n), done.` you're finished here! Go back to the last tab you were in (the one you created this notebook from).
+
 ![img.png](ion-cannon-images/Step6.PNG)
 ![img.png](ion-cannon-images/Step7.PNG)
 ![img.png](ion-cannon-images/Step8.PNG)
