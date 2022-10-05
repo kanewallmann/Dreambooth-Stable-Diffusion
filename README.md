@@ -1,5 +1,8 @@
 # Dreambooth Ion Cannon
 
+
+![img.png](ion-cannon-images/ioncannon.png)
+
 ## Purpose
 
 The Dreambooth Ion Cannon is a repository that abstracts away a large chunk of the execution pain points of [The Repo Formerly Known As Dreambooth](https://github.com/JoePenna/Dreambooth-Stable-Diffusion), providing a layperson an easily accessible guide to uploading photographs, training a Stable Diffusion model on said photographs, and generating images according to pre-selected prompts.
@@ -133,15 +136,39 @@ Depending on the class of the person you're trying to train, name the folder `ma
 
 You're welcome to use another category if you want (so long as you're consistent in the notebook itself, as detailed in Step 17 below), but no regularisation will take place.
 
-I'm wary about adding too many additional categories, but will probably add `dog` and `cat` soon enough for your pets.
+I'm wary about adding too many additional categories due to space bloat within the repository, but will probably add `dog` and `cat` soon enough for your pets.
 
 ![img.png](ion-cannon-images/Step11.PNG)
 
 ### Step 12
 
+Enter the `{class}` directory that you've just created, and hit `Upload`.
+
 ![img.png](ion-cannon-images/Step12.PNG)
 
+### Step 13
+
+Here's the step that requires a couple of caveats.
+
+In this folder, you'll want to upload between 8-10 **.png** files capturing someone's likeness.
+
+There's conflicting advice about whether these should be a mix of full-body, selfies and medium-length shots, but I've personally found that just selfies work fine, provided that they've got different background lighting, clothes, facial expressions and so on.
+
+Most of the prompts generated focus on portraits in any event, so the shape of the body is something of an irrelevance. 
+
+As an example, I've put some photos of [@inversebrah](https://twitter.com/inversebrah) - partially to demonstrate that `person` can be used very liberally, and also that cartoon representations work fine provided that you have enough variation in your training set!
+
+It is _very_ important that these images follow the format `{identifier} {class}_001.png`, `{identifier} {class}_002.png`, `{identifier} {class}_003.png` and so on: if you get this wrong your model is likely to train incorrectly (or fail to execute outright).
+
+See `inversebrah person_001.png` et al. I actually don't know yet if uploading `.PNG` files (upper-case) cases the model training to fail - I'll get around to checking that soon, but it takes you no time to rename them if so. If you have .jpg files, you can use a site such as [this](https://jpg2png.com/) to convert them.
+
+Select all appropriate files from the upload file-system modal that pops up, and click OK. 
+
 ![img.png](ion-cannon-images/Step13.PNG)
+
+### Step 14
+
+![img.png](ion-cannon-images/Step14.PNG)
 ![img.png](ion-cannon-images/Step14.PNG)
 ![img.png](ion-cannon-images/Step15.PNG)
 ![img.png](ion-cannon-images/Step16.PNG)
