@@ -168,9 +168,24 @@ Select all appropriate files from the upload file-system modal that pops up, and
 
 ### Step 14
 
+You're going to have to click `Upload` on every single image. Sorry!
+
+There might be a delay in upload depending on the size of the underlying file, but you'll know you're done when each of the files has a time entry under Last Modified.
+
+Once that's done, click on `training_samples` in the filepath above the images to navigate back to that directory.
+
 ![img.png](ion-cannon-images/Step14.PNG)
-![img.png](ion-cannon-images/Step14.PNG)
+
+### Step 15
+
+No, seriously, you have to delete that .txt file that says to do it (unless you decided to jump the gun and delete it straight away).
+
+Select it, delete it.
+
 ![img.png](ion-cannon-images/Step15.PNG)
+
+### Step 16
+
 ![img.png](ion-cannon-images/Step16.PNG)
 ![img.png](ion-cannon-images/Step17.PNG)
 ![img.png](ion-cannon-images/Step18.PNG)
