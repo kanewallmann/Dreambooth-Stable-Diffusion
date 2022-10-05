@@ -254,7 +254,7 @@ I welcome folk - especially those who wouldn't call themselves 'technical' - to 
 
 # Alpha
 
-There are a couple of things I'll be adding in here over time - how you can help me add new filters, some things I'm going to extend this with, and so on -, but first I want to see how well this gets used. Please, if you're not anonymous and comfortable with people seeing the results (whether they be great or absolutely atrocious), let me know on Twitter!
+There are a couple of things I'll be adding in here over time - how you can help me add new filters, some things I'm going to extend this with, and so on -, but first I want to see how well this gets used. Please, if you're not anonymous and comfortable with people seeing the results (whether they be great or absolutely atrocious), let me know on [Twitter](https://twitter.com/functi0nZer0)!
 
 # Thanks
 
