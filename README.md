@@ -72,7 +72,18 @@ Note: if, when you hit `Open`, it gives you a _Bad Gateway Error_, just wait ano
 
 ### Step 5
 
+Right, you're in. Welcome to Jupyter.
+
+First thing you're going to want to do is grab _this repo_ - the same one you're reading the README of right now. That involves doing a `git clone` of this repository, and to do that, you need to create a new Jupyter notebook so you can run a command.
+
+Click `New` > `Python 3 (ipykernel)`.
+
+A new tab is going to open. Don't close (or misplace) the tab you were just in - you'll be coming back!
+
 ![img.png](ion-cannon-images/Step5.PNG)
+
+### Step 6 
+
 ![img.png](ion-cannon-images/Step6.PNG)
 ![img.png](ion-cannon-images/Step7.PNG)
 ![img.png](ion-cannon-images/Step8.PNG)
