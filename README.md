@@ -178,13 +178,19 @@ Once that's done, click on `training_samples` in the filepath above the images t
 
 ### Step 15
 
-No, seriously, you have to delete that .txt file that says to do it (unless you decided to jump the gun and delete it straight away).
+No, seriously, you have to delete that .txt file that says to do it (unless you deleted it straight away).
 
 Select it, delete it.
 
 ![img.png](ion-cannon-images/Step15.PNG)
 
 ### Step 16
+
+Once that's done, click on the `Dreambooth-Ion-Cannon` directory in the filepath to navigate back to that directory.
+
+Now you're going to access the code that actually trains Stable Diffusion with your likeness and punts out images per prompts that I've found work well.
+
+Click on `dreambooth_ion_cannon.ipynb`: a new tab will open.
 
 ![img.png](ion-cannon-images/Step16.PNG)
 ![img.png](ion-cannon-images/Step17.PNG)
