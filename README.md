@@ -90,7 +90,7 @@ Copy and paste the following line into the only available cell -
 
 `!git clone https://github.com/laurenceday/Dreambooth-Ion-Cannon.git`
 
-- and then hit `Ctrl`+`Enter`. It's going to download 4.8 GB worth of files. If you've used a datacenter, this shouldn't take more than a couple of minutes.
+\- and then hit `Ctrl`+`Enter`. It's going to download 4.8 GB worth of files. If you've used a datacenter, this shouldn't take more than a couple of minutes.
 
 Once you see the line `Checking out files: 100% (n/n), done.` you're finished here! Go back to the last tab you were in (the one you created this notebook from).
 
@@ -110,7 +110,18 @@ And then into the `training_samples` directory...
 
 ### Step 9
 
+This is where you're going to put the photographs that constitute the training set for whoever you're trying to generate images for. 
+
+Not _here_, exactly, but in a subdirectory with a name corresponding to whether your subject is a `man`, `woman` or `person`.
+
+Please also note the name of the file in this directory (and what it says): it's only in here so that the directory exists for you to get to this point. I'll probably tinker with the notebook to automatically delete this soon, but for the time being, pay it some mind.
+
+Go ahead and click `New` > `Folder`, highlighted below.
+
 ![img.png](ion-cannon-images/Step9.PNG)
+
+### Step 10
+
 ![img.png](ion-cannon-images/Step10.PNG)
 ![img.png](ion-cannon-images/Step11.PNG)
 ![img.png](ion-cannon-images/Step12.PNG)
