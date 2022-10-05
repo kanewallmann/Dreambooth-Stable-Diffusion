@@ -22,6 +22,8 @@ I am focusing the below 'how-to' on [Vast.AI](https://vast.ai) as the provisioni
 
 This section is under live construction: if you're confused, come back in a bit - if you're still confused, ping me on Twitter and let me know what part you're struggling with!
 
+Some of this will seem almost patronising in tone: I'm writing this live, and trying to account for all questions I might get in advance, so apologies in advance if necessary!
+
 ### Step 0
 
 You're going to want to sign up to [Vast.AI](https://vast.ai), log in, and add a payment method.
@@ -112,7 +114,7 @@ And then into the `training_samples` directory...
 
 This is where you're going to put the photographs that constitute the training set for whoever you're trying to generate images for. 
 
-Not _here_, exactly, but in a subdirectory with a name corresponding to whether your subject is a `man`, `woman` or `person`.
+Not _here_, exactly, but in a subdirectory with a name corresponding to whether your subject is a `man`, `woman` or `person` (this is up to you to decide, obviously - this has to do with regularisation, something you don't need to be overly concerned with unless you're particularly curious: refer to Kane's repository for more details).
 
 Please also note the name of the file in this directory (and what it says): it's only in here so that the directory exists for you to get to this point. I'll probably tinker with the notebook to automatically delete this soon, but for the time being, pay it some mind.
 
@@ -121,8 +123,12 @@ Go ahead and click `New` > `Folder`, highlighted below.
 ![img.png](ion-cannon-images/Step9.PNG)
 
 ### Step 10
+Select the checkbox option next to the newly created `Untitled Folder`, and hit `Rename`.
 
 ![img.png](ion-cannon-images/Step10.PNG)
+
+### Step 11
+
 ![img.png](ion-cannon-images/Step11.PNG)
 ![img.png](ion-cannon-images/Step12.PNG)
 ![img.png](ion-cannon-images/Step13.PNG)
