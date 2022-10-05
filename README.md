@@ -22,45 +22,57 @@ I am focusing the below 'how-to' on [Vast.AI](https://vast.ai) as the provisioni
 
 This section is under live construction: if you're confused, come back in a bit - if you're still confused, ping me on Twitter and let me know what part you're struggling with!
 
-#### Step 0
+### Step 0
 
 You're going to want to sign up to [Vast.AI](https://vast.ai), log in, and add a payment method.
 
-I'm not going to hand-hold you through how to do that, it's a site a sophisticated UX and it uses Stripe and Crypto.com as its payment rails. I've been following Joe's advice and adding credit in US$10 increments - that will be more than enough for you to start.
+I'm not going to hand-hold you through how to do that, as it's a website with a sophisticated UX, and it uses Stripe and Crypto.com as its payment rails. I've been following Joe's advice and adding credit in US$10 increments - that will be more than enough for you to start.
 
 ![img.png](ion-cannon-images/Step0.PNG)
 
-#### Step 1
+### Step 1
 
-Once you're logged in and have some credit available, go to the **Create** section of the Console.
+Once you're logged in and have some credit available, go to the `Create` section of the Console.
 
 Here, you'll want to make sure that the image (pre-installed software on a new instance you create) has Pytorch available on it. 
 
 Click on `Edit Image & Config...`, highlighted below. Note that I've edited the required disk space to be 150 GB - this is _far_ in excess of what you'll need, but space costs mere pennies. Stick with about 50 GB if you're not a spendthrift, that'll do fine.
  
-- ![img.png](ion-cannon-images/Step1.PNG)
+![img.png](ion-cannon-images/Step1.PNG)
 
-#### Step 2
+### Step 2
 
-- ![img.png](ion-cannon-images/Step2.PNG)
-- ![img.png](ion-cannon-images/Step3.PNG)
-- ![img.png](ion-cannon-images/Step4.PNG)
-- ![img.png](ion-cannon-images/Step5.PNG)
-- ![img.png](ion-cannon-images/Step6.PNG)
-- ![img.png](ion-cannon-images/Step7.PNG)
-- ![img.png](ion-cannon-images/Step8.PNG)
-- ![img.png](ion-cannon-images/Step9.PNG)
-- ![img.png](ion-cannon-images/Step10.PNG)
-- ![img.png](ion-cannon-images/Step11.PNG)
-- ![img.png](ion-cannon-images/Step12.PNG)
-- ![img.png](ion-cannon-images/Step13.PNG)
-- ![img.png](ion-cannon-images/Step14.PNG)
-- ![img.png](ion-cannon-images/Step15.PNG)
-- ![img.png](ion-cannon-images/Step16.PNG)
-- ![img.png](ion-cannon-images/Step17.PNG)
-- ![img.png](ion-cannon-images/Step18.PNG)
-- ![img.png](ion-cannon-images/Step19.PNG)
-- ![img.png](ion-cannon-images/Step20.PNG)
+Ensure that you've selected `PyTorch`. The 'what it is' is ably explained in the below screenshot: it's a deep-learning framework. You need it.
+
+Previous iterations of this repository have suggested checking the Jupyter lab interface and direct HTTPS options, but to be honest, when I was setting all of this up, I forgot to do it, and it's simple enough to work through without it (this advice may change when I finally get around to trying it out).
+
+![img.png](ion-cannon-images/Step2.PNG)
+
+### Step 3
+
+![img.png](ion-cannon-images/Step3.PNG)
+![img.png](ion-cannon-images/Step4.PNG)
+![img.png](ion-cannon-images/Step5.PNG)
+![img.png](ion-cannon-images/Step6.PNG)
+![img.png](ion-cannon-images/Step7.PNG)
+![img.png](ion-cannon-images/Step8.PNG)
+![img.png](ion-cannon-images/Step9.PNG)
+![img.png](ion-cannon-images/Step10.PNG)
+![img.png](ion-cannon-images/Step11.PNG)
+![img.png](ion-cannon-images/Step12.PNG)
+![img.png](ion-cannon-images/Step13.PNG)
+![img.png](ion-cannon-images/Step14.PNG)
+![img.png](ion-cannon-images/Step15.PNG)
+![img.png](ion-cannon-images/Step16.PNG)
+![img.png](ion-cannon-images/Step17.PNG)
+![img.png](ion-cannon-images/Step18.PNG)
+![img.png](ion-cannon-images/Step19.PNG)
+
+#### Step 20
+
+Stare into the void.
+
+![img.png](ion-cannon-images/Step20.PNG)
 
 ------------
 
