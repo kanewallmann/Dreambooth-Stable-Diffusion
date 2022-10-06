@@ -250,6 +250,12 @@ You'll want to click on these.
 
 ![img.png](ion-cannon-images/Step20.PNG)
 
+### Alert
+
+**Please** make sure that you **stop** your instance once you've finished (see Step 4 above): if you don't, you're going to come back to this in a few hours days wanting to try it on someone else, only to find that all of the credit that you purchased has dwindled away.
+
+It is best practice - both financially and for the purposes of minimising the time that images of people spend on third-party disk drives - to save the collages you like as you open them (I'll work on a process for pulling all of these out to a single location for you to download), and then **delete the instance** (the button to the left of the Stop square).
+
 ---
 
 # Notes
