@@ -203,9 +203,9 @@ Click on `dreambooth_ion_cannon.ipynb`: a new tab will open.
 
 I've written a bit of text here that talks about - inter alia - who did the bulk of the work on this, how the naming scheme work for the training images again (just to drill it home), and some legal provisos. Underneath this text, there's a cell with two variables in it: `target_name` and `target_class`.
 
-These are the *only* things you'll need to edit.
+These are the *only* things you'll need to edit. There are some other parameters there, but they are set to default values (and are explained in the notebook above that cell), so you don't _need_ to change them if you don't want to.
 
-**Based on what you used for your training set**, edit these values, and then select `Cell` > `Run All Below`.
+**Based on what you named the images in your training set**, edit these values, and then select `Cell` > `Run All`.
 
 You can now... go away for a while. The Jupyter notebook is going to do a few things:
 
