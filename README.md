@@ -4,7 +4,7 @@
 
 ## Purpose
 
-The Dreambooth Ion Cannon is a repository that abstracts away a large chunk of the execution pain points of [The Repo Formerly Known As Dreambooth](https://github.com/JoePenna/Dreambooth-Stable-Diffusion), providing a layperson an easily accessible guide to uploading photographs, training a Stable Diffusion model on said photographs, and generating images according to pre-selected prompts.
+The Dreambooth Ion Cannon is a repository that abstracts away a large chunk of the execution pain points of [The Repo Formerly Known As Dreambooth](https://github.com/JoePenna/Dreambooth-Stable-Diffusion), providing a layperson an easily accessible guide to uploading images, training a Stable Diffusion model on said images, and generating new images according to pre-selected prompts.
 
 This repo (and _particularly_ this `README`) should be considered under active development until such time as this line of text disappears, so please pop in every so often in case things still appear piecemeal. I will be adding new prompts on occasion to the model (and have several ideas on how to smooth the path to training multi-subject models), so be aware that this is very much a construction zone.
 
@@ -46,7 +46,7 @@ Click on `Edit Image & Config...`, highlighted below. Note that I've edited the 
 
 ### Step 2
 
-Ensure that you've selected `PyTorch`. The 'what it is' is ably explained in the below screenshot: it's a deep-learning framework. You need it.
+Ensure that you've selected `Pytorch`. The 'what it is' is ably explained in the below screenshot: it's a deep-learning framework. You need it.
 
 Previous iterations of this repository have suggested checking the Jupyter lab interface and direct HTTPS options, but to be honest, when I was setting all of this up, I forgot to do it, and it's simple enough to work through without it (this advice may change when I finally get around to trying it out).
 
@@ -159,7 +159,7 @@ As an example, I've chosen [@inversebrah](https://twitter.com/inversebrah) - par
 
 It is _very_ important that these images follow the format `{identifier} {class}_001.png`, `{identifier} {class}_002.png`, `{identifier} {class}_003.png` and so on: if you get this wrong your model is likely to train incorrectly (or fail to execute outright). If this happens, I'm claiming zero responsibility for wasted compute time.
 
-See `inversebrah person_001.png` et al. I actually don't know yet if uploading `.PNG` files (upper-case) cases the model training to fail - I'll get around to checking that soon, but it takes you no time to rename them if so. If you have .jpg files, you can use a site such as [this](https://jpg2png.com/) to convert them.
+See `inversebrah person_001.png` et al. I actually don't know yet if uploading `.PNG` files (upper-case) causes the model training to fail - I'll get around to checking that soon, but it takes you no time to rename them if so. If you have .jpg files, you can use a site such as [this](https://jpg2png.com/) to convert them.
 
 Select all appropriate files from the upload file-system modal that pops up, and click OK. 
 
@@ -187,7 +187,7 @@ Select it, delete it.
 
 Once that's done, click on the `Dreambooth-Ion-Cannon` directory in the filepath to navigate back to that directory.
 
-Now you're going to access the code that actually trains Stable Diffusion with your likeness and punts out images per prompts that I've found work well.
+Now you're going to access the code that actually trains Stable Diffusion with the likeness of the subject and punts out images per prompts that I've found work well.
 
 Click on `dreambooth_ion_cannon.ipynb`: a new tab will open.
 
@@ -195,7 +195,7 @@ Click on `dreambooth_ion_cannon.ipynb`: a new tab will open.
 
 ### Step 17
 
-I've written a bit of text here that talks about - inter alia - who did the bulk of the work on this, how the image selection works again (just to drill it home), and some legal provisos. Underneath this text, there's a cell with two variables in it: `target_name` and `target_class`.
+I've written a bit of text here that talks about - inter alia - who did the bulk of the work on this, how the naming scheme work for the training images again (just to drill it home), and some legal provisos. Underneath this text, there's a cell with two variables in it: `target_name` and `target_class`.
 
 These are the *only* things you'll need to edit.
 
