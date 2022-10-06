@@ -72,6 +72,12 @@ Given that you've just rented this, it'll need a minute to wake up, load Pytorch
 
 Note: if, when you hit `Open`, it gives you a _502 Bad Gateway_, just wait another 30 seconds or so and try again - that just means your instance jumped the gun a bit. 
 
+### IMPORTANT NOTE
+
+#### When you are finished with this guide and seen your results, make sure you hit the Stop button for your running instance (the black square above Open)!
+
+#### If you don't, the rest of your credit will needlessly drain away over time.
+
 ![img.png](ion-cannon-images/Step4.PNG)
 
 ### Step 5
