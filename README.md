@@ -122,7 +122,7 @@ And then into the `training_samples` directory...
 
 This is where you're going to put the photographs that constitute the training set for whoever you're trying to generate images for. 
 
-Not _here_, exactly, but in a subdirectory with a name corresponding to whether your subject is a `man`, `woman` or `person` (this is up to you to decide, obviously - this has to do with regularisation, something you don't need to be overly concerned with unless you're particularly curious: refer to Kane's repository for more details).
+Not _here_, exactly, but in a subdirectory with a name corresponding to whether your subject is a `man`, `woman`, `person`, `dog` or `cat` (this is up to you to decide, obviously - this has to do with regularisation, something you don't need to be overly concerned with unless you're particularly curious: refer to Kane's repository for more details).
 
 Please also note the name of the file in this directory (and what it says): it's only in here so that the directory exists for you to get to this point. I'll probably tinker with the notebook to automatically delete this soon, but for the time being, pay it some mind.
 
