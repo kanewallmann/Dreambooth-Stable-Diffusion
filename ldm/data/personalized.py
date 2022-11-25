@@ -64,7 +64,7 @@ class PersonalizedBase(Dataset):
         parts.pop(len(parts)-1)
         parts.append("txt")
         captionpath = ".".join(parts)
-        filecheck = Path.Path(captionfile)
+        filecheck = Path.path(captionfile)
         identifier = ""
         if filecheck.exists():
             captionfile = open(captionpath,'r')
