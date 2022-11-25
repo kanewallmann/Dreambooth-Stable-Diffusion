@@ -1,5 +1,6 @@
 # Index
 
+- [Caption files](#captionfile-update)
 - [Notes by Kane](#notes-by-kane)
 - [Notes by Joe Penna](#notes-by-joe-penna)
 - [Setup](#setup)
@@ -17,6 +18,9 @@
 ## ...now more accurately described as "Unfrozen Model Textual Inversion for Stable Diffusion"
 ![image](https://user-images.githubusercontent.com/100188076/192390551-cb89364f-af57-4aed-8f3d-f9eb9b61cf95.png)
 
+## <a name="captionfile-update"></a>  Caption files - PhytoEpidemic
+  You can now use a caption file with the same name as the image file with a ".txt" extension (e.g. "image(1).png", "image(1).txt").
+This allows you to have much bigger captions and have "illegal characters". If there is no caption file for an image it will default to using the image name as the caption.
 ## <a name="notes-by-kane"></a>  Notes by Kane
  I have modified Joe's fork to take captions for the training set from the filename of the training image. This allows you
 to train multiple people or things at the same time. It also takes the caption for the regularization images from the filename which allows you to regularize multi classes during 
