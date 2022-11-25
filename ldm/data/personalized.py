@@ -27,7 +27,7 @@ class PersonalizedBase(Dataset):
         for cl in classes:
             class_path = os.path.join(self.data_root, cl)
             for file_path in os.listdir(class_path):
-                if file_path.endswith(".png"):
+                if not file_path.endswith(".txt"):
                     image_path = os.path.join(class_path, file_path)
                     self.image_paths.append(image_path)
 
