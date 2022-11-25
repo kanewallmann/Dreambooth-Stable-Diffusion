@@ -86,7 +86,7 @@ class PersonalizedBatchBase(Dataset):
         parts.pop(len(parts)-1)
         parts.append("txt")
         captionpath = ".".join(parts)
-        filecheck = pathlib.Path(captionfile)
+        filecheck = Path.Path(captionfile)
         identifier = ""
         if filecheck.exists():
             captionfile = open(captionpath,'r')
