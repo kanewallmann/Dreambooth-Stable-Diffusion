@@ -53,16 +53,27 @@ class PersonalizedBase(Dataset):
 
     def __getitem__(self, i):
         example = {}
-
-        image = Image.open(self.image_paths[i % self.num_images])
+        image_path = self.image_paths[i % self.num_images]
+        image = Image.open(image_path)
 
         if not image.mode == "RGB":
             image = image.convert("RGB")
 
-        pathname = Path(self.image_paths[i % self.num_images]).name
 
-        parts = pathname.split("_")
-        identifier = parts[0]
+        parts = image_path.split(".")
+        parts.pop(len(parts)-1)
+        parts.append("txt")
+        captionpath = ".".join(parts)
+        filecheck = pathlib.Path(captionfile)
+        identifier = ""
+        if filecheck.exists():
+            captionfile = open(captionpath,'r')
+            identifier = captionfile.readline()
+            captionfile.close()
+        else:
+            pathname = Path(image_path).name
+            parts = pathname.split("_")
+            identifier = parts[0]
 
         example["caption"] = identifier
 
