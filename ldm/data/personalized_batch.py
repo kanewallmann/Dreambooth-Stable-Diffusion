@@ -81,10 +81,21 @@ class PersonalizedBatchBase(Dataset):
         if not image.mode == "RGB":
             image = image.convert("RGB")
 
-        pathname = Path(image_path).name
 
-        parts = pathname.split("_")
-        identifier = parts[0]
+        parts = image_path.split(".")
+        parts.pop(len(parts)-1)
+        parts.append("txt")
+        captionpath = ".".join(parts)
+        filecheck = pathlib.Path(captionfile)
+        identifier = ""
+        if filecheck.exists():
+            captionfile = open(captionpath,'r')
+            identifier = captionfile.readline()
+            captionfile.close()
+        else:
+            pathname = Path(image_path).name
+            parts = pathname.split("_")
+            identifier = parts[0]
 
         example["caption"] = identifier
 
