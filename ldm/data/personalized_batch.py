@@ -30,9 +30,10 @@ class PersonalizedBatchBase(Dataset):
         for cl in classes:
             class_path = os.path.join(self.data_root, cl)
             for file_path in os.listdir(class_path):
-                image_path = os.path.join(class_path, file_path)
-                self.image_paths.append(image_path)
-                self.image_classes.append(cl)
+                if file_path.endswith(".png"):
+                    image_path = os.path.join(class_path, file_path)
+                    self.image_paths.append(image_path)
+                    self.image_classes.append(cl)
 
         self.reg_image_paths = {}
 
@@ -86,7 +87,7 @@ class PersonalizedBatchBase(Dataset):
         parts.pop(len(parts)-1)
         parts.append("txt")
         captionpath = ".".join(parts)
-        filecheck = Path.path(captionfile)
+        filecheck = Path(captionpath)
         identifier = ""
         if filecheck.exists():
             captionfile = open(captionpath,'r')
